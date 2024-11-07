@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    z-index: 100000;
+
+}
+
+ 
+
+.option{
+text-decoration: none;
+color: black;
+font-family: "Inter", sans-serif;
+
+}
+
+.option:hover{
+text-decoration: underline;
+}
+
+.mail{
+  padding: 15px 35px;
+    border: 1px solid rgb(236, 235, 234);
+    background-color: rgb(241, 240, 239);
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+border-radius: 10px;
+}
+
+.wsLogo{
+    width: 45px;
+    height: 45px;
+}
+
+.cvButton{
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 14px 30px;
+    background-color: white;
+    border: 1px solid rgb(236, 235, 234);
+}
